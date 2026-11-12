@@ -1265,23 +1265,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.664 132.588) (xy 105.664 130.048)
+			(xy 115.57 129.54) (xy 105.41 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01169bf0-5515-4879-b395-4c926444ca34")
-	)
-	(wire
-		(pts
-			(xy 105.664 127.508) (xy 115.824 127.508)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09bf044a-d002-48ec-8506-0ffee09405d3")
+		(uuid "093d2b7e-b997-49df-bb98-d354d72dc707")
 	)
 	(wire
 		(pts
@@ -1315,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.944 121.158) (xy 70.866 121.158)
+			(xy 59.69 120.65) (xy 71.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1325,13 +1315,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.664 124.968) (xy 115.824 124.968)
+			(xy 105.41 129.54) (xy 105.41 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17721ddf-6ddb-40f4-a6f9-4664b016ee8d")
+		(uuid "14ab57e3-f5e4-4e23-9ea9-09fc3eaf0ad4")
 	)
 	(wire
 		(pts
@@ -1405,13 +1395,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.664 130.048) (xy 115.824 130.048)
+			(xy 115.57 121.92) (xy 105.41 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "653bf76d-24fd-4c0b-b969-c1cb15bc7483")
+		(uuid "6cda641d-0cbc-4665-a108-e9ab2d8098f2")
 	)
 	(wire
 		(pts
@@ -1435,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.644 128.778) (xy 59.944 128.778)
+			(xy 72.39 128.27) (xy 59.69 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1445,13 +1435,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.664 122.428) (xy 115.824 122.428)
+			(xy 105.41 127) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a438ccfd-3db3-434b-a5f3-d032fc170091")
+		(uuid "a770967c-fca4-4f06-93fc-26e71030dc56")
+	)
+	(wire
+		(pts
+			(xy 115.57 124.46) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bd24e3-8083-431d-acf0-9adbab615dbe")
 	)
 	(wire
 		(pts
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.944 123.698) (xy 70.866 123.698)
+			(xy 59.69 123.19) (xy 71.12 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1475,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.944 126.238) (xy 70.866 126.238)
+			(xy 59.69 125.73) (xy 71.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.644 131.318) (xy 72.644 128.778)
+			(xy 72.39 130.81) (xy 72.39 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1573,8 +1573,8 @@
 		)
 		(uuid "15b4050c-676a-42c6-a1e6-09389cfc6c9d")
 	)
-	(label "UART1_TXD"
-		(at 105.664 124.968 0)
+	(label "UART0_TXD"
+		(at 105.41 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1583,8 +1583,8 @@
 		)
 		(uuid "18dc3187-8082-437b-b39e-c3fa78638cf4")
 	)
-	(label "UART1_RXD"
-		(at 70.866 126.238 180)
+	(label "UART0_TXD"
+		(at 71.12 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1614,7 +1614,7 @@
 		(uuid "288857c7-2cef-4e30-8806-2edc808f3af2")
 	)
 	(label "3V3"
-		(at 70.866 121.158 180)
+		(at 71.12 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1673,8 +1673,8 @@
 		)
 		(uuid "9225df91-6274-4cd2-9cb0-184a11e53769")
 	)
-	(label "UART1_RXD"
-		(at 105.664 127.508 0)
+	(label "UART0_RXD"
+		(at 105.41 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1713,8 +1713,8 @@
 		)
 		(uuid "e0d693c4-351b-48d5-b6e9-5a2150d089d4")
 	)
-	(label "UART1_TXD"
-		(at 70.866 123.698 180)
+	(label "UART0_RXD"
+		(at 71.12 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1724,7 +1724,7 @@
 		(uuid "e7fd56bb-ed16-47a4-8da3-e88b4c17f7ff")
 	)
 	(label "3V3"
-		(at 105.664 122.428 0)
+		(at 105.41 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1745,7 +1745,7 @@
 	)
 	(symbol
 		(lib_id "Connector:RJ10")
-		(at 59.944 121.158 0)
+		(at 59.69 120.65 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1756,7 +1756,7 @@
 		(dnp no)
 		(uuid "644cae5b-0538-4e95-a6df-a5da0456692b")
 		(property "Reference" "J1"
-			(at 40.894 122.936 0)
+			(at 40.64 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1767,7 +1767,7 @@
 			)
 		)
 		(property "Value" "RJ11-UART"
-			(at 40.894 125.476 0)
+			(at 40.64 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1778,7 +1778,7 @@
 			)
 		)
 		(property "Footprint" "Library-LIFEDE:RJ11_LIFEDE"
-			(at 49.784 124.46 90)
+			(at 49.53 123.952 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1789,7 +1789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.944 121.793 90)
+			(at 59.69 121.285 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1800,7 +1800,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 4P4C (4 positions 4 connected)"
-			(at 49.784 123.19 0)
+			(at 49.53 122.682 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1833,7 +1833,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.644 131.318 0)
+		(at 72.39 130.81 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1845,7 +1845,7 @@
 		(fields_autoplaced yes)
 		(uuid "824d72cf-ae15-4308-93a6-994eeae62698")
 		(property "Reference" "#PWR03"
-			(at 72.644 137.668 0)
+			(at 72.39 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1856,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.644 136.398 0)
+			(at 72.39 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1866,7 +1866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.644 131.318 0)
+			(at 72.39 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1877,7 +1877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.644 131.318 0)
+			(at 72.39 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1888,7 +1888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.644 131.318 0)
+			(at 72.39 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2267,7 +2267,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 120.904 124.968 0)
+		(at 120.65 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2278,7 +2278,7 @@
 		(fields_autoplaced yes)
 		(uuid "f271fba7-676f-4b8d-86f3-1de2345d00e2")
 		(property "Reference" "J3"
-			(at 123.444 124.9679 0)
+			(at 123.19 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2289,7 +2289,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 123.444 127.5079 0)
+			(at 123.19 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2300,7 +2300,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 120.904 124.968 0)
+			(at 120.65 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.904 124.968 0)
+			(at 120.65 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2322,7 +2322,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.904 124.968 0)
+			(at 120.65 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,7 +2355,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.664 132.588 0)
+		(at 105.41 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2366,7 +2366,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6eb709e-1615-400e-b62b-1ebb293ec333")
 		(property "Reference" "#PWR05"
-			(at 105.664 138.938 0)
+			(at 105.41 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,7 +2377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.664 137.668 0)
+			(at 105.41 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2387,7 +2387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.664 132.588 0)
+			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +2398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.664 132.588 0)
+			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,7 +2409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.664 132.588 0)
+			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
