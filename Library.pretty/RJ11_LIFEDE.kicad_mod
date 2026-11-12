@@ -1,0 +1,359 @@
+(footprint "RJ11_LIFEDE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "RJ14 connector 6P4C Horizontal http://www.connfly.com/userfiles/image/UpLoadFile/File/2012/10/26/DS1133.pdf")
+	(tags "RJ14 connector 6P4C Connfly DS1133")
+	(property "Reference" "REF**"
+		(at -3.2 -9.64 180)
+		(layer "F.SilkS")
+		(uuid "596ed1c0-b069-49c0-8dc8-04736f817bf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RJ11_LIFEDE"
+		(at 2 6.35 180)
+		(layer "F.Fab")
+		(uuid "d0dc2eac-ecf0-4d9c-9998-103cdb51540d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40393a4d-09da-494e-9ae2-7f4e884a7cab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47666509-3644-4c82-be76-00be09381b13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.28 -0.5)
+		(end -4.78 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1844c411-ef01-4650-a170-424e044366b3")
+	)
+	(fp_line
+		(start -5.28 0.5)
+		(end -5.28 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "057239dc-9adf-4c20-9632-8cf17f6aac2c")
+	)
+	(fp_line
+		(start -4.78 0)
+		(end -5.28 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ad0c846-4d9e-4c6e-ac19-babc7b8cb7a0")
+	)
+	(fp_line
+		(start -4.67 -8.5)
+		(end -4.67 -4.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6287127d-5312-42dc-aa9e-3ae4d97ff0af")
+	)
+	(fp_line
+		(start -4.67 -8.5)
+		(end 7.73 -8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0778d4f7-d5ea-48d6-a2ac-f5d86f772406")
+	)
+	(fp_line
+		(start -4.67 4.9)
+		(end -4.67 -0.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4879dbda-9ad0-4a71-a906-8700fdbaf778")
+	)
+	(fp_line
+		(start 7.73 -8.5)
+		(end 7.73 -4.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "426ac2c1-ae4d-4f55-a4cb-7d42bee9a972")
+	)
+	(fp_line
+		(start 7.73 -0.57)
+		(end 7.73 4.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8a4b2fb-d793-4231-b0ce-4667d822b928")
+	)
+	(fp_line
+		(start 7.73 4.9)
+		(end -4.67 4.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5d1af03-37c7-44d7-8318-2a7385dd49d5")
+	)
+	(fp_line
+		(start -5.17 -9)
+		(end 8.23 -9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9973f729-0cd8-4c4d-9b02-669ea254ee27")
+	)
+	(fp_line
+		(start -5.17 -3.88)
+		(end -5.17 -9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "977920e3-f2d4-4cda-9fa1-17f91dd8c78c")
+	)
+	(fp_line
+		(start -5.17 5.4)
+		(end -5.17 -0.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "207a53ce-ffa3-46af-ac3c-308ef76d3f40")
+	)
+	(fp_line
+		(start 8.23 -9)
+		(end 8.23 -3.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d717605a-3e05-4491-bf58-3ef5137dd26a")
+	)
+	(fp_line
+		(start 8.23 5.4)
+		(end -5.17 5.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e70628a-5298-4134-8d4a-31308a7c890b")
+	)
+	(fp_line
+		(start 8.23 5.4)
+		(end 8.23 -0.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "539e1f63-6bb0-42d2-ac80-eda29dc21940")
+	)
+	(fp_arc
+		(start -5.17 -0.72)
+		(mid -6.19812 -2.3)
+		(end -5.17 -3.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14e661d1-ffdd-4295-9248-24802a33252f")
+	)
+	(fp_arc
+		(start 8.23 -3.88)
+		(mid 9.25812 -2.3)
+		(end 8.23 -0.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edf3a004-4ce3-43d0-b9d3-4dce7f403f1f")
+	)
+	(fp_line
+		(start -4.67 -8.5)
+		(end 7.73 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8fb929a-d6a1-40f1-930a-5ab1da1cf864")
+	)
+	(fp_line
+		(start -4.67 4.9)
+		(end -4.67 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bcc310d-6c6f-4ce1-b695-f339cb3250f7")
+	)
+	(fp_line
+		(start -4.57 -0.5)
+		(end -4.06 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9e630dc-29df-4354-a36e-87044a496b8d")
+	)
+	(fp_line
+		(start -4.06 0)
+		(end -4.57 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e49afe3-4614-418c-891b-f1e02fb34979")
+	)
+	(fp_line
+		(start 7.73 -8.5)
+		(end 7.73 4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea4e58f8-37da-4ba8-a06f-11b5f5b06a71")
+	)
+	(fp_line
+		(start 7.73 4.9)
+		(end -4.67 4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "977e968c-57f3-420c-8708-4687010b3ff7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.03 -5.22 180)
+		(layer "F.Fab")
+		(uuid "7ce64b27-57cd-41ea-b7c7-8cee8722b555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.47 -2.3 180)
+		(size 2.3 2.3)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "51bd51bb-830b-475b-898d-e4f31f0b2ac9")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.53 -2.3 180)
+		(size 2.3 2.3)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0a3dca72-f727-4493-bb7f-faca28588668")
+	)
+	(pad "1" thru_hole oval
+		(at 3.06 2.54 180)
+		(size 1.8 2.5)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ab0642e-b3c7-4492-9c0c-f91316ee3808")
+	)
+	(pad "2" thru_hole oval
+		(at 2.04 0 180)
+		(size 1.8 2.5)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2604d4e4-ee5d-4688-a648-a83bfd59f66d")
+	)
+	(pad "3" thru_hole oval
+		(at 1.02 2.54 180)
+		(size 1.8 2.5)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f808f57d-8dee-4057-84cc-afa3d45c425c")
+	)
+	(pad "4" thru_hole oval
+		(at 0 0 180)
+		(size 1.8 2.5)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ec91b06-4b10-441d-b442-1cf8ef477ca0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ14_Connfly_DS1133-S4_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
